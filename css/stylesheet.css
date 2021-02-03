@@ -1,53 +1,126 @@
-@keyframes bgcolor {
-    0% {
-        background-color: #45a3e5
-    }
-
-    30% {
-        background-color: #66bf39
-    }
-
-    60% {
-        background-color: #eb670f
-    }
-
-    90% {
-        background-color: #f35
-    }
-
-    100% {
-        background-color: #864cbf
-    }
-}
 
 body {
   background-color: #eb670f;
   font-family: Papyrus;
 }
 
-.container {
+/* Top header. H1 pittedgnar.com and world gif */
+
+#pittedgnar-main {
+  width: 59vw;
+  position: absolute;
+  z-index: 1;
+}
+
+#h1-pittedgnar {
+  color: darkslategrey;
+  font-size: 6.2vw;
+  display: table-cell;
+  padding-top: 13px;
+}
+
+#world-gif {
+  position: absolute;
+  height: 100%;
+  margin-left: 3.6vw;
+  transform: rotate(-20deg);
+  user-select: none;
+}
+
+#world-div {
+  display: table-cell;
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 #world {
   color: deeppink;
-  width: 100%;
-  margin-top: -65%;
-  transform: rotate(343deg);
-  margin-left: -35%;
+  margin-top: 5.7vh;
+  margin-left: 1.6vw;
+  position: absolute;
+  transform: rotate(-17deg);
+  font-size: 2.3vw;
 }
 
-#gold {
-  color: gold;
-  font-size: 5vh;
-  margin-top: -194px;
-  margin-left: 13px;
+/* End of top header */
+
+/* Cowabunga */
+
+#cowabunga {
+  margin-top: 12vh;
+  margin-left: 2vw;
+  width: 90vw;
+  height: 77vh;
+  transform: rotate(-5deg);
+  position: absolute;
+}
+
+/* Looking */
+
+#looking {
+  position: relative;
+  width: 19vw;
+  float: right;
+  margin-right: 1vw;
+  margin-top: 12vh;
+}
+
+/* Menu-bar */
+
+#menu-bar {
+  cursor: pointer;
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  margin-top: 18vh;
+  margin-left: 2vw;
+}
+
+.bar {
+  background-color: lightskyblue;
+  position: absolute;
+  width: 90%;
+  height: 15%;
+  margin-left: 5%;
+  border-radius: 4px;
+}
+
+.bar:hover {
+  background-color: red;
+  position: absolute;
+  width: 90%;
+  height: 15%;
+  margin-left: 5%;
+  border-radius: 4px;
+}
+
+#bar1 {
+  margin-top: 15%
+}
+
+#bar2 {
+  margin-top: 45%
+}
+
+#bar3 {
+  margin-top: 75%
+}
+
+/* End of menu bar */
+
+/* Menu */
+
+#menu {
+  position: absolute;
+  width: 16vw;
+  height: 32vh;
+  margin-top: 30vh;
+  margin-left: 8vw;
 }
 
 #menuLink {
   color: lightskyblue;
-  display: inherit;
+  display: inline-block;
   font-size: 3vh;
 }
 
@@ -55,6 +128,41 @@ body {
   color: lawngreen
 }
 
-#menuButton {
-  font-size: 17vh;
+/* End of menu */
+
+/* Gins div */
+
+#gains {
+  position: absolute;
+  width: 25vw;
+  height: 29vh;
+  margin-top: 37vw;
+  margin-left: 1vh;
+  transform: rotate(6deg);
+}
+
+#gains-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#gains-msg1 {
+    position: absolute;
+    color: black;
+    margin-top: 9vh;
+    margin-left: 1vw;
+    font-size: 3.8vh;
+    font-weight: bolder;
+    transform: rotate(-9deg);
+}
+
+#gains-msg2 {
+  position: absolute;
+  color: deeppink;
+  margin-top: 8.8vh;
+  margin-left: 1.1vw;
+  font-size: 3.8vh;
+  font-weight: bolder;
+  transform: rotate(-9deg);
 }

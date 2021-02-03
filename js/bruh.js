@@ -1,0 +1,3 @@
+function bruh() {
+  alert("Bruh")
+}
