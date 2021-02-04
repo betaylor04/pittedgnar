@@ -12,8 +12,14 @@ body {
 
 #phish {
   width: 100%;
-  height: 70vh;
+  height: 110vh;
   background-color: lightskyblue;
+}
+
+#sustainability {
+  width: 100%;
+  height: 70vh;
+  background-color: darkslategrey;
 }
 
 /* Top header. H1 pittedgnar.com and world gif */
@@ -137,6 +143,7 @@ body {
   height: 32vh;
   margin-top: 30vh;
   margin-left: 8vw;
+  visibility: hidden;
 }
 
 #menuLink {
@@ -145,11 +152,89 @@ body {
   font-size: 3vh;
 }
 
+#menuLink-team {
+  color: lightskyblue;
+  display: inline-block;
+  font-size: 3vh;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#menuLink-team:hover {
+  color: lawngreen;
+  text-decoration: underline;
+}
+
 #menuLink:hover {
-  color: lawngreen
+  color: lawngreen;
+  text-decoration: underline;
 }
 
 /* End of menu */
+
+/* Team menu */
+
+#team-menu {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 30vw;
+  height: 60vh;
+  margin-left: 30vw;
+  margin-top: 10vh;
+  z-index: 3;
+  visibility: hidden;
+}
+
+#team-inner {
+  background: beige;
+  width: 100%;
+  height: 100%;
+  margin-left: 2.5%;
+  margin-top: -2.5%;
+}
+
+#team-close {
+  display: inline-block;
+  width: 10%;
+  height: 9%;
+  cursor: pointer;
+}
+
+#team-close:hover > .team-x {
+  background-color: lightseagreen;
+}
+
+.team-x {
+  position: absolute;
+  background-color: darkred;
+  width: 8%;
+  height: 1%;
+  margin-top: 4%;
+  margin-left: 0.9%;
+}
+
+#team-x-1 {
+  transform: rotate(-45deg);
+}
+
+#team-x-2 {
+  transform: rotate(45deg);
+}
+
+#team-name {
+  display: inline-block;
+  color: darkgreen;
+  margin: 0;
+}
+
+#team-img {
+  width: 85%;
+  height: 65%;
+  margin-left: 7%;
+  margin-top: 7%;
+}
+
+/* End of team menu */
 
 /* Gins div */
 
@@ -260,7 +345,8 @@ body {
   font-size: 7vw;
   text-align: center;
   color: blue;
-  position: absolute
+  position: absolute;
+  z-index: 1;
 }
 
 #cool-vids-link {
@@ -271,4 +357,82 @@ body {
 #cool-vids-link:hover {
   text-decoration: line-through;
   color: aliceblue;
+}
+
+/* End cool vids */
+
+/* Wipeout */
+
+#wipeout-gif {
+  position: absolute;
+  width: 40vw;
+  height: 88vh;
+  margin-left: 37vw;
+  margin-top: 10vw;
+  z-index: 0;
+}
+
+/* trey and trey2 */
+
+#trey-gif {
+  position: absolute;
+  margin-top: 58vh;
+  width: 30vw;
+  height: 40vh;
+  margin-left: 61vw;
+  transform: rotate(11deg);
+}
+
+#trey2-gif {
+  position: absolute;
+  margin-top: 12vh;
+  width: 30vw;
+  height: 80vh;
+  margin-left: 2vw;
+  transform: rotate(-15deg);
+}
+
+/* trey end */
+
+/* sustainability */
+
+#sustainability-img {
+  position: absolute;
+  width: 88vw;
+  height: 59vh;
+  margin-top: 13px;
+  margin-left: 5px;
+}
+
+#sustainability-text {
+  position: absolute;
+  font-size: 9vw;
+  color: saddlebrown;
+  margin-top: 40vh;
+  margin-left: 10vw;
+}
+
+#sustainability-text2 {
+  position: absolute;
+  font-size: 9vw;
+  color: lawngreen;
+  margin-top: 40.5vh;
+  margin-left: 10.5vw;
+}
+
+#pittedgnar-img {
+  position: absolute;
+  margin-top: 14vh;
+  margin-left: 69vw;
+  height: 20%;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: beige;
+}
+
+#solar-button {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 1%;
 }

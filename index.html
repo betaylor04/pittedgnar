@@ -23,7 +23,7 @@
       <img id="cowabunga" src="radicalPhotos/cowabunga.jpg" alt="cowabunga">
       <img id="looking"src="radicalPhotos/looking.jpg" alt="looking">
 
-      <div id="menu-bar">
+      <div onclick="clickSoundFunc()" id="menu-bar">
         <div class="bar" id="bar1"></div>
         <div class="bar" id="bar2"></div>
         <div class="bar" id="bar3"></div>
@@ -35,7 +35,7 @@
         <a id="menuLink" href="">Back</a><br>
         <a id="menuLink" href="">About</a><br>
         <a id="menuLink" href="">back</a><br>
-        <a id="menuLink" href="">Our team</a><br>
+        <a id="menuLink-team" onclick="showTeam()">Our team</a><br>
         <a id="menuLink" href="https://www.mortensonaccounting.com/">Investors section</a>
       </div>
 
@@ -52,10 +52,36 @@
         <h1 id="buy-text">I agree to the terms.</h1>
         <h1 onclick="buy()" id="buy-text-click">Buy</h1>
       </div>
+
+      <div id="team-menu">
+        <div id="team-inner">
+          <div onclick="hideTeam()" id="team-close">
+            <div class="team-x" id="team-x-1"></div>
+            <div class="team-x" id="team-x-2"></div>
+          </div>
+          <h1 id="team-name">Our team:</h1>
+          <img id="team-img" src="radicalPhotos/team.jpg" alt="team">
+        </div>
+      </div>
+
     </div>
 
     <div id="phish">
       <h1 id="cool-vids"><a id="cool-vids-link" href="radicalPhotos/whoa.gif">Cool vids</a></h1>
+      <img id="wipeout-gif" src="radicalPhotos/wipeout.gif" alt="wipeout">
+      <img id="trey-gif" src="radicalPhotos/trey.gif" alt="trey">
+      <img id="trey2-gif" src="radicalPhotos/trey2.gif" alt="trey2">
+
+    </div>
+
+    <div id="sustainability">
+      <img id="sustainability-img" src="radicalPhotos/sustainability.jpg" alt="sustainability">
+      <h1 id="sustainability-text">"Sustainability"</h1>
+      <h1 id="sustainability-text2">"Sustainability"</h1>
+      <img id="pittedgnar-img" src="radicalPhotos/sleeping.jpg" alt="sleeping">
+      <div id="solar-button">
+        <button type="button" name="solar-button" onclick="solarRoofs()">Solar.mp3</button>
+      </div>
     </div>
 
     <script type="text/javascript" src="js/bruh.js"></script>
