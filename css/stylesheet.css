@@ -2,6 +2,18 @@
 body {
   background-color: #eb670f;
   font-family: Papyrus;
+  margin: 0;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+}
+
+#phish {
+  width: 100%;
+  height: 70vh;
+  background-color: lightskyblue;
 }
 
 /* Top header. H1 pittedgnar.com and world gif */
@@ -44,6 +56,20 @@ body {
 
 /* End of top header */
 
+/* Ambience */
+
+#ambience {
+  right: 4vw;
+  position: absolute;
+  margin-top: 2vh;
+}
+
+#ambience-h1 {
+  font-size: 5vh;
+}
+
+/* Ambience end */
+
 /* Cowabunga */
 
 #cowabunga {
@@ -72,21 +98,16 @@ body {
   position: absolute;
   width: 10vh;
   height: 10vh;
-  margin-top: 18vh;
+  margin-top: 10vw;
   margin-left: 2vw;
+}
+
+#menu-bar:hover > .bar {
+  background-color: red
 }
 
 .bar {
   background-color: lightskyblue;
-  position: absolute;
-  width: 90%;
-  height: 15%;
-  margin-left: 5%;
-  border-radius: 4px;
-}
-
-.bar:hover {
-  background-color: red;
   position: absolute;
   width: 90%;
   height: 15%;
@@ -136,8 +157,8 @@ body {
   position: absolute;
   width: 25vw;
   height: 29vh;
-  margin-top: 37vw;
-  margin-left: 1vh;
+  margin-top: 66vh;
+  margin-left: 1vw;
   transform: rotate(6deg);
 }
 
@@ -165,4 +186,89 @@ body {
   font-size: 3.8vh;
   font-weight: bolder;
   transform: rotate(-9deg);
+}
+
+/* End of gains div */
+
+/* Buy div */
+
+#buy {
+  position: absolute;
+  background-color: deeppink;
+  height: 36vh;
+  width: 73vh;
+  margin-top: 60vh;
+  right: 10vw
+}
+
+#buy-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#buy-speach {
+  position: absolute;
+  background-color: deeppink;
+  width: 68%;
+  height: 50%;
+  border-radius: 50% / 50%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+#buy-speach-point {
+  position: absolute;
+    background-color: deeppink;
+    width: 5%;
+    height: 10%;
+    margin-left: 65%;
+    margin-top: 12.6%;
+    transform: rotate(21deg);
+}
+
+#buy-text {
+  position: absolute;
+  color: black;
+  margin-left: 17%;
+  margin-top: 12%;
+  text-align: center;
+  font-size: 3.1vh
+}
+
+#buy-text-click {
+  position: absolute;
+  color: black;
+  margin-left: 31%;
+  margin-top: 16%;
+  text-align: center;
+  font-size: 3.1vh
+}
+
+#buy-text-click:hover {
+  color: gold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* End buy div */
+
+/* Cool vids */
+
+#cool-vids {
+  width: 100%;
+  font-size: 7vw;
+  text-align: center;
+  color: blue;
+  position: absolute
+}
+
+#cool-vids-link {
+  text-decoration: none;
+  color: blue;
+}
+
+#cool-vids-link:hover {
+  text-decoration: line-through;
+  color: aliceblue;
 }
