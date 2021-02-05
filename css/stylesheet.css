@@ -350,8 +350,12 @@ body {
 }
 
 #cool-vids-link {
-  text-decoration: none;
-  color: blue;
+  color: lightcoral;
+  position: absolute;
+  font-size: 2vw;
+  margin-top: 24vh;
+  margin-left: 60vw;
+  z-index: 1;
 }
 
 #cool-vids-link:hover {
