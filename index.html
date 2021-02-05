@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" media="screen and (min-width: 800px)" type="text/css" href="css/stylesheet.css"></link>
+    <link rel="stylesheet" media="screen and (max-width: 800px)" type="text/css" href="css/mobileStylesheet.css"></link>
     <title></title>
   </head>
   <body>
@@ -39,6 +40,17 @@
         <a id="menuLink" href="https://www.mortensonaccounting.com/">Investors section</a>
       </div>
 
+      <div id="team-menu">
+        <div id="team-inner">
+          <div onclick="hideTeam()" id="team-close">
+            <div class="team-x" id="team-x-1"></div>
+            <div class="team-x" id="team-x-2"></div>
+          </div>
+          <h1 id="team-name">Our team:</h1>
+          <img id="team-img" src="radicalPhotos/team.jpg" alt="team">
+        </div>
+      </div>
+
       <div id="gains">
         <img id="gains-img"src="radicalPhotos/gains.jpg" alt="gains">
         <h1 id="gains-msg1">The source for all things Pitted Gnar</h1>
@@ -51,17 +63,6 @@
         <div id="buy-speach-point"></div>
         <h1 id="buy-text">I agree to the terms.</h1>
         <h1 onclick="buy()" id="buy-text-click">Buy</h1>
-      </div>
-
-      <div id="team-menu">
-        <div id="team-inner">
-          <div onclick="hideTeam()" id="team-close">
-            <div class="team-x" id="team-x-1"></div>
-            <div class="team-x" id="team-x-2"></div>
-          </div>
-          <h1 id="team-name">Our team:</h1>
-          <img id="team-img" src="radicalPhotos/team.jpg" alt="team">
-        </div>
       </div>
 
     </div>

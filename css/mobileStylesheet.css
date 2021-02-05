@@ -1,0 +1,434 @@
+body {
+  background-color: #eb670f;
+  font-family: Papyrus;
+  margin: 0;
+}
+
+#main {
+  width: 100vw;
+  height: 156vh;
+}
+
+#phish {
+  width: 100vw;
+  height: 104vh;
+  background-color: lightskyblue;
+}
+
+#sustainability {
+  width: 100%;
+  height: 70vh;
+  background-color: darkslategrey;
+}
+
+/* Top header. H1 pittedgnar.com and world gif */
+
+#pittedgnar-main {
+  width: 59vw;
+  position: absolute;
+  z-index: 1;
+}
+
+#h1-pittedgnar {
+  color: darkslategrey;
+  font-size: 8.2vw;
+  display: table-cell;
+  padding-top: 13px;
+}
+
+#world-gif {
+  position: absolute;
+  height: 100%;
+  margin-left: 3.6vw;
+  transform: rotate(-20deg);
+  user-select: none;
+}
+
+#world-div {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+}
+
+#world {
+  color: deeppink;
+  margin-top: 10%;
+  margin-left: 1.6vw;
+  position: absolute;
+  transform: rotate(-17deg);
+  font-size: 3.3vw;
+}
+
+/* End of top header */
+
+/* Ambience */
+
+#ambience {
+  right: 1vw;
+  position: absolute;
+  margin-top: 2vh;
+}
+
+#ambience-h1 {
+  font-size: 5vh;
+}
+
+/* Ambience end */
+
+/* Cowabunga */
+
+#cowabunga {
+  margin-top: 14%;
+  margin-left: 2vw;
+  width: 90vw;
+  height: 77vh;
+  transform: rotate(-5deg);
+  position: absolute;
+}
+
+/* Looking */
+
+#looking {
+  position: relative;
+  width: 28vw;
+  float: right;
+  margin-right: 1vw;
+  margin-top: 12vh;
+}
+
+/* Menu-bar */
+
+#menu-bar {
+  cursor: pointer;
+  position: absolute;
+  width: 12vw;
+  height: 12vw;
+  margin-top: 16vw;
+  margin-left: 2vw;
+}
+
+#menu-bar:hover > .bar {
+  background-color: red
+}
+
+.bar {
+  background-color: lightskyblue;
+  position: absolute;
+  width: 90%;
+  height: 15%;
+  margin-left: 5%;
+  border-radius: 4px;
+}
+
+#bar1 {
+  margin-top: 15%
+}
+
+#bar2 {
+  margin-top: 45%
+}
+
+#bar3 {
+  margin-top: 75%
+}
+
+/* End of menu bar */
+
+/* Menu */
+
+#menu {
+  position: absolute;
+  width: 46vw;
+  height: 52vh;
+  margin-top: 20%;
+  margin-left: 18vw;
+  visibility: hidden;
+  z-index: 1;
+}
+
+#menuLink {
+  color: lightskyblue;
+  display: inline-block;
+  font-size: 140%;
+}
+
+#menuLink-team {
+  color: lightskyblue;
+  display: inline-block;
+  font-size: 140%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#menuLink-team:hover {
+  color: lawngreen;
+  text-decoration: underline;
+}
+
+#menuLink:hover {
+  color: lawngreen;
+  text-decoration: underline;
+}
+
+/* End of menu */
+
+/* Team menu */
+
+#team-menu {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  visibility: hidden;
+}
+
+#team-inner {
+  background: beige;
+  width: 100%;
+  height: 100%;
+}
+
+#team-close {
+  display: inline-block;
+  width: 10%;
+  height: 9%;
+  cursor: pointer;
+}
+
+#team-close:hover > .team-x {
+  background-color: lightseagreen;
+}
+
+.team-x {
+  position: absolute;
+  background-color: darkred;
+  width: 8%;
+  height: 1%;
+  margin-top: 4%;
+  margin-left: 0.9%;
+}
+
+#team-x-1 {
+  transform: rotate(-45deg);
+}
+
+#team-x-2 {
+  transform: rotate(45deg);
+}
+
+#team-name {
+  display: inline-block;
+  color: darkgreen;
+  margin: 0;
+}
+
+#team-img {
+  width: 85%;
+  height: 65%;
+  margin-left: 7%;
+  margin-top: 7%;
+}
+
+/* End of team menu */
+
+/* Gins div */
+
+#gains {
+  position: absolute;
+  width: 55vw;
+  height: 49vh;
+  margin-top: 101vh;
+  margin-left: 1vw;
+  transform: rotate(6deg);
+  z-index: 1;
+}
+
+#gains-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#gains-msg1 {
+  position: absolute;
+  color: black;
+  margin-top: 9vh;
+  margin-left: 1vw;
+  font-size: 180%;
+  font-weight: bolder;
+  transform: rotate(-9deg);
+}
+
+#gains-msg2 {
+  position: absolute;
+  color: deeppink;
+  margin-top: 8.7vh;
+  margin-left: 1.2vw;
+  font-size: 180%;
+  font-weight: bolder;
+  transform: rotate(-9deg);
+}
+
+/* End of gains div */
+
+/* Buy div */
+
+#buy {
+  position: absolute;
+  background-color: deeppink;
+  height: 50%;
+  width: 70%;
+  margin-top: 70vh;
+  right: 1vw;
+}
+
+#buy-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#buy-speach {
+  position: absolute;
+  background-color: deeppink;
+  width: 68%;
+  height: 50%;
+  border-radius: 50% / 50%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+#buy-speach-point {
+  position: absolute;
+  display: none;
+}
+
+#buy-text {
+  position: absolute;
+  color: black;
+  margin-left: 11vw;
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 90%;
+}
+
+#buy-text-click {
+  position: absolute;
+  color: black;
+  margin-left: 31%;
+  margin-top: 14vh;
+  text-align: center;
+  font-size: 120%;
+}
+
+#buy-text-click:hover {
+  color: gold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* End buy div */
+
+/* Cool vids */
+
+#cool-vids {
+  width: 100%;
+  font-size: 240%;
+  text-align: center;
+  color: blue;
+  position: absolute;
+  z-index: 1;
+}
+
+#cool-vids-link {
+  color: lightcoral;
+  position: absolute;
+  font-size: 150%;
+  margin-top: 14vh;
+  margin-left: 64vw;
+  z-index: 1;
+}
+
+#cool-vids-link:hover {
+  text-decoration: line-through;
+  color: aliceblue;
+}
+
+/* End cool vids */
+
+/* Wipeout */
+
+#wipeout-gif {
+  position: absolute;
+  width: 60vw;
+  height: 88vh;
+  margin-left: 17vw;
+  margin-top: 8vw;
+  z-index: 0;
+}
+
+/* trey and trey2 */
+
+#trey-gif {
+  position: absolute;
+  margin-top: 28vh;
+  width: 30vw;
+  height: 40vh;
+  margin-left: 61vw;
+  transform: rotate(11deg);
+}
+
+#trey2-gif {
+  position: absolute;
+  margin-top: 52vh;
+  width: 20vw;
+  height: 30vh;
+  margin-left: 2vw;
+  transform: rotate(-15deg);
+}
+
+/* trey end */
+
+/* sustainability */
+
+#sustainability-img {
+  position: absolute;
+  width: 88vw;
+  height: 59vh;
+  margin-top: 13px;
+  margin-left: 5px;
+}
+
+#sustainability-text {
+  position: absolute;
+  font-size: 9vw;
+  color: saddlebrown;
+  margin-top: 40vh;
+  margin-left: 10vw;
+}
+
+#sustainability-text2 {
+  position: absolute;
+  font-size: 9vw;
+  color: lawngreen;
+  margin-top: 40.5vh;
+  margin-left: 10.5vw;
+}
+
+#pittedgnar-img {
+  position: absolute;
+  margin-top: 14vh;
+  margin-left: 59vw;
+  height: 20%;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: beige;
+}
+
+#solar-button {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 4%;
+}
