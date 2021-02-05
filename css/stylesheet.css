@@ -68,6 +68,7 @@ body {
   right: 4vw;
   position: absolute;
   margin-top: 2vh;
+  z-index: 1;
 }
 
 #ambience-h1 {
@@ -347,20 +348,6 @@ body {
   color: blue;
   position: absolute;
   z-index: 1;
-}
-
-#cool-vids-link {
-  color: lightcoral;
-  position: absolute;
-  font-size: 2vw;
-  margin-top: 24vh;
-  margin-left: 60vw;
-  z-index: 1;
-}
-
-#cool-vids-link:hover {
-  text-decoration: line-through;
-  color: aliceblue;
 }
 
 /* End cool vids */
